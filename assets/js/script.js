@@ -36,8 +36,21 @@ function checkAnswer() {
 
 }
 
+/**
+ * get the operants and checks if the answer is correct 
+ * it checks the game add minus time or divide
+ */
 function calculateCorrectAnswer() {
+    let operant1 = parseInt(document.getElementById("operand1").innerText );
+    let operant2 = parseInt(document.getElementById("operand2").innerText );
+    let operator = document.getElementById("operator").innerText ;
 
+if (operator === "+"){
+return[operant1 + operant2, "addition"];
+} else {
+    alert (`Unimplemted operator ${operator}`)
+    throw  `Unimplemted operator ${operator}.aborting`
+}
 
 }
 
