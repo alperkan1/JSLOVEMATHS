@@ -6,7 +6,7 @@ document.addEventListener("DOMcontentLoaded", function () {
                             if (this.getAttribute("data-type") === "submit") {
                                     alert("You clicked Submit!");
                                 } else {
-                                    let gameType = this.getAttribute("data-type");
+                                    let gameType = this.getAttribute("data-type")
                                     alert(`You Clicked ${gameType}`);
             }
         })
