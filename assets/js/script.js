@@ -12,10 +12,16 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
-
+/**
+ * the main game loop to crate random numbers
+ * and resets 
+ */
 function runGame() {
-
+    let num1 = Math.floor(Math.random() * 25) + 1;
+    let num2 = Math.floor(Math.random() * 25) + 1;
 }
+
+
 
 function checkAnswer() {
 
